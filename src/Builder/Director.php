@@ -3,7 +3,7 @@ namespace src\Builder;
 
 class Director
 {
-    private BuilderInterface $builder;
+    private $builder;
 
     public function setBuilder(BuilderInterface $builder): void
     {

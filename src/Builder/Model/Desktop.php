@@ -3,9 +3,9 @@ namespace src\Builder\Model;
 
 class Desktop
 {
-    public array $parts;
-    public float $price;
-    public int $caseSize;
+    public $parts = [];
+    public $price;
+    public $caseSize;
 
     public function listParts(): void
     {

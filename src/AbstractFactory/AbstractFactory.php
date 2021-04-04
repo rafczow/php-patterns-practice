@@ -1,7 +1,10 @@
 <?php
 namespace src\AbstractFactory;
 
-interface FurnitureFactory
+use src\AbstractFactory\Model\AbstractTable;
+use src\AbstractFactory\Model\AbstractChair;
+
+interface AbstractFactory
 {
     public function createTable(): AbstractTable;
 

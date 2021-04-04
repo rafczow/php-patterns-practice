@@ -1,14 +1,14 @@
 <?php
 
-class VictorianFactory implements FurnitureFactory
+class ModernFactory implements AbstractFactory
 {
     public function createTable(): AbstractTable
     {
-        return new VictorianChair();
+        return new ModernTable();
     }
 
     public function createChair(): AbstractChair
     {
-        return new VictorianTable();
+        return new ModernChair();
     }
 }

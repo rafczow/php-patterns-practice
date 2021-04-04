@@ -3,9 +3,9 @@ namespace src\Builder\Model;
 
 class Laptop
 {
-    public array $parts;
-    public float $price;
-    public int $screenSize;
+    public $parts = [];
+    public $price;
+    public $screenSize;
 
     public function listParts(): void
     {

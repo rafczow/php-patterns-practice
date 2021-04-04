@@ -6,4 +6,9 @@ class ModernChair implements AbstractChair
     {
         return true;
     }
+
+    public function getStyleName(): string
+    {
+        return 'Modern';
+    }
 }

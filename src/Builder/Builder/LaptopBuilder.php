@@ -5,7 +5,7 @@ use src\Builder\Model\Laptop;
 
 class LaptopBuilder implements BuilderInterface
 {
-    private Laptop $laptop;
+    private $laptop;
 
     public function __construct() 
     {
@@ -19,33 +19,32 @@ class LaptopBuilder implements BuilderInterface
 
     public function createGpu() 
     {
-        $this->computer->parts[] = 'integrated gpu';
+        $this->laptop->parts[] = 'integrated gpu';
     }
 
     public function createCpu() 
     {
-        $this->computer->parts[] = 'low voltage cpu';
+        $this->laptop->parts[] = 'low voltage cpu';
     }
 
     public function createRam() 
     {
-        $this->computer->parts[] = 'ram';
+        $this->laptop->parts[] = 'ram';
     }
     
     public function calculatePrice()
     {
-        $price = $this->computer->getPrice();
-        $this->computer->price = $price;
+        $this->laptop->price = count($this->laptop->parts) * 10;
+
+        return $this->laptop->price;
     }
 
     protected function getComputer() : Laptop
     {
-        $computer = $this->laptop;
-        //$computer->addKeyboard();
-        //$computer->addTouchpad();
+        $laptop = $this->laptop;
         
-        $this-reset();
+        $this->reset();
 
-        return $computer;
+        return $laptop;
     }
 }

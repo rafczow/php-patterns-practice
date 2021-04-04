@@ -34,16 +34,16 @@ class DesktopBuilder implements BuilderInterface
     
     public function calculatePrice()
     {
-        $price = $this->computer->getPrice();
-        $this->computer->price = $price;
+        $this->computer->price = count($this->computer->parts) * 10;
+
+        return $this->computer->price;
     }
 
     protected function getComputer(): Desktop
     {
         $computer = $this->computer;
-        //$computer->installPartsIntoCase();
 
-        $this-reset();
+        $this->reset();
 
         return $computer;
     }

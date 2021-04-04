@@ -30,9 +30,9 @@ class BuilderClient
 
         echo 'Custom desktop:\n';
         $desktopBuilder->createCpu();
-        $desktopBuilder->createCpu();
         $desktopBuilder->createGpu();
         $desktopBuilder->createGpu();
+        $desktopBuilder->createRam();
         $desktopBuilder->createRam();
         $desktopBuilder->calculatePrice();
         $desktopBuilder->getComputer()->listParts();
