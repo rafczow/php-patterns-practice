@@ -7,17 +7,17 @@ Code examples which I write during learning process of design patterns. I also d
 ### Table of contents
 
 * [AbstractFactory](../master/src/AbstractFactory)
-* [Adapter](../tree/master/src/Adapter)
-* [Builder](../tree/master/src/Builder)
-* [Command](../tree/master/src/Command)
-* [Decorator](../tree/master/src/Decorator)
-* [FactoryMethod](../tree/master/src/FactoryMethod)
-* [Mediator](../tree/master/src/Mediator)
-* [Prototype](../tree/master/src/Prototype)
-* [Proxy](../tree/master/src/Proxy)
-* [Singleton](../tree/master/src/Singleton)
-* [Strategy](../tree/master/src/Strategy)
-* [TemplateMethod](../tree/master/src/TemplateMethod)
+* [Adapter](../master/src/Adapter)
+* [Builder](../master/src/Builder)
+* [Command](../master/src/Command)
+* [Decorator](../master/src/Decorator)
+* [FactoryMethod](../master/src/FactoryMethod)
+* [Mediator](../master/src/Mediator)
+* [Prototype](../master/src/Prototype)
+* [Proxy](../master/src/Proxy)
+* [Singleton](../master/src/Singleton)
+* [Strategy](../master/src/Strategy)
+* [TemplateMethod](../master/src/TemplateMethod)
 
 ### To Do
 
