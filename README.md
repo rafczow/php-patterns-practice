@@ -6,7 +6,7 @@ Code examples which I write during learning process of design patterns. I also d
 
 ### Table of contents
 
-* [AbstractFactory](/tree/master/src/AbstractFactory)
+* [AbstractFactory](../src/AbstractFactory)
 * [Adapter](../tree/master/src/Adapter)
 * [Builder](../tree/master/src/Builder)
 * [Command](../tree/master/src/Command)
