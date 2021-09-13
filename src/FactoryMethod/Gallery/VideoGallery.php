@@ -1,8 +1,8 @@
 <?php
 namespace src\FactoryMethod;
 
-class VideoGallery extends Gallery {
-
+class VideoGallery extends Gallery 
+{
     public function createSource() : SourceInterface 
     {
         $videoUrl = $this->fetchVideoUrl();

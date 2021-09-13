@@ -5,7 +5,7 @@ abstract class Gallery
 {
     abstract public function createSource() : SourceInterface;
 
-    protected function getHml(): string
+    protected function getHtml(): string
     {
         $source = $this->createSource();
 

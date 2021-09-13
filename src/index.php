@@ -1,6 +1,13 @@
+<?php
+namespace src;
+
+spl_autoload_register();
+?>
+
 <h2>Design patterns:</h2>
 <ul>
     <?php
+
     $list = [
         [
             'url' => '/AbstractFactory/index.php',
